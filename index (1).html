@@ -1,0 +1,157 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <title>
+   National Agro Industries
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body {
+      font-family: 'Roboto', sans-serif;
+    }
+  </style>
+ </head>
+ <body class="flex flex-col min-h-screen bg-green-50 text-gray-900">
+  <header class="bg-green-800 text-green-50 shadow-md sticky top-0 z-50">
+   <div class="container mx-auto flex flex-col md:flex-row items-center justify-between px-6 py-4">
+    <div class="flex items-center space-x-3">
+     <img alt="Logo of National Agro Industries, stylized green leaf with initials NAI" class="w-12 h-12 rounded-full object-cover" height="48" loading="lazy" src="https://storage.googleapis.com/a1aa/image/428b21d1-9e74-4969-46f5-6737f41c1578.jpg" width="48"/>
+     <div>
+      <h1 class="text-2xl font-bold leading-none">
+       National Agro Industries
+      </h1>
+      <p class="text-sm font-light tracking-wide">
+       www.nationalagro.com
+      </p>
+     </div>
+    </div>
+    <nav class="mt-3 md:mt-0">
+     <ul class="flex flex-col md:flex-row md:space-x-8 text-lg font-medium">
+      <li>
+       <a class="block py-2 px-3 rounded hover:bg-green-700 transition-colors duration-300" href="#home">
+        Home
+       </a>
+      </li>
+      <li>
+       <a class="block py-2 px-3 rounded hover:bg-green-700 transition-colors duration-300" href="#products">
+        Products
+       </a>
+      </li>
+      <li>
+       <a class="block py-2 px-3 rounded hover:bg-green-700 transition-colors duration-300" href="#contact">
+        Contact Us
+       </a>
+      </li>
+     </ul>
+    </nav>
+   </div>
+  </header>
+  <main class="flex-grow">
+   <!-- Homepage Banner -->
+   <section class="relative w-full h-[400px] md:h-[500px] flex items-center justify-center text-center px-6" id="home">
+    <img alt="A vast farmland with lush green crops under a clear blue sky, symbolizing agriculture and growth" class="absolute inset-0 w-full h-full object-cover brightness-75" height="500" loading="lazy" src="https://storage.googleapis.com/a1aa/image/64b3f0c4-6c32-4c1f-13c7-3376bc048084.jpg" width="1920"/>
+    <div class="relative max-w-3xl text-white">
+     <h2 class="text-4xl md:text-5xl font-extrabold drop-shadow-lg mb-4">
+      Welcome to National Agro Industries
+     </h2>
+     <p class="text-lg md:text-xl font-light drop-shadow-md">
+      Leading manufacturer of quality agricultural instruments including Pavda, Khandi, and Khat.
+          Located at Nandanagar near the railway station, we empower farmers with durable and reliable tools.
+     </p>
+    </div>
+   </section>
+   <!-- Products Section -->
+   <section class="container mx-auto px-6 py-16" id="products">
+    <h3 class="text-3xl font-bold text-green-900 mb-10 text-center">
+     Our Products
+    </h3>
+    <div class="grid gap-10 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+     <!-- Pavda -->
+     <article class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300">
+      <img alt="Close-up of a Pavda agricultural instrument with a sharp metal blade and wooden handle resting on soil" class="w-full h-48 object-cover" height="400" loading="lazy" src="pavda.jpg" width="600"/>
+      <div class="p-6">
+       <h4 class="text-xl font-semibold text-green-800 mb-2">
+        Pavda
+       </h4>
+       <p class="text-gray-700 leading-relaxed">
+        The Pavda is a traditional soil tilling instrument designed for efficient cultivation.
+              Crafted with durable metal and a comfortable wooden handle, it helps prepare your fields with ease.
+       </p>
+      </div>
+     </article>
+     <!-- Khandi -->
+     <article class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300">
+      <img alt="Khandi agricultural instrument with sharp blades and wooden handle used for harvesting crops" class="w-full h-48 object-cover" height="400" loading="lazy" src="https://storage.googleapis.com/a1aa/image/5ff0f593-6001-4b7d-c9c1-87197b2e461f.jpg" width="600"/>
+      <div class="p-6">
+       <h4 class="text-xl font-semibold text-green-800 mb-2">
+        Khandi
+       </h4>
+       <p class="text-gray-700 leading-relaxed">
+        The Khandi is a sharp and reliable harvesting tool designed to make crop cutting faster and safer.
+              Its ergonomic wooden handle ensures a firm grip during long hours of work.
+       </p>
+      </div>
+     </article>
+     <!-- Khat (Charpayi) -->
+     <article class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300">
+      <img alt="Khat or Charpayi traditional woven bed with wooden frame used by farmers for rest" class="w-full h-48 object-cover" height="400" loading="lazy" src="https://storage.googleapis.com/a1aa/image/6665a6d8-34d1-4353-070d-55b673e628b4.jpg" width="600"/>
+      <div class="p-6">
+       <h4 class="text-xl font-semibold text-green-800 mb-2">
+        Khat (Charpayi)
+       </h4>
+       <p class="text-gray-700 leading-relaxed">
+        Our Khat, also known as Charpayi, is a traditional woven bed crafted with sturdy wood and strong ropes.
+              Perfect for farmers to rest comfortably after a hard day's work in the fields.
+       </p>
+      </div>
+     </article>
+    </div>
+   </section>
+   <!-- Contact Us Section -->
+   <section class="bg-green-100 py-16 px-6" id="contact">
+    <div class="container mx-auto max-w-4xl bg-white rounded-lg shadow-lg p-8">
+     <h3 class="text-3xl font-bold text-green-900 mb-8 text-center">
+      Contact Us
+     </h3>
+     <div class="flex flex-col md:flex-row md:space-x-10">
+      <div class="md:w-1/2 mb-8 md:mb-0">
+       <h4 class="text-xl font-semibold text-green-800 mb-4">
+        Address
+       </h4>
+       <p class="text-gray-700 leading-relaxed mb-6">
+        National Agro Industries
+        <br/>
+        Nandanagar, Near Railway Station
+        <br/>
+        India
+       </p>
+       <h4 class="text-xl font-semibold text-green-800 mb-4">
+        Phone
+       </h4>
+       <p class="text-gray-700 leading-relaxed">
+        <a class="text-green-700 hover:underline" href="tel:+911234567890">
+         <i class="fas fa-phone-alt mr-2">
+         </i>
+         +91 12345 67890
+        </a>
+       </p>
+      </div>
+      <div class="md:w-1/2 h-64 md:h-auto rounded-lg overflow-hidden shadow-md">
+       <iframe allowfullscreen="" height="100%" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3769.1234567890123!2d75.1234567890123!3d26.1234567890123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396db123456789ab%3A0x123456789abcdef!2sNandanagar%20Railway%20Station!5e0!3m2!1sen!2sin!4v1680000000000!5m2!1sen!2sin" style="border:0;" title="Google Maps location of National Agro Industries near Nandanagar railway station" width="100%">
+       </iframe>
+      </div>
+     </div>
+    </div>
+   </section>
+  </main>
+  <footer class="bg-green-800 text-green-50 text-center py-4 mt-12">
+   <p class="text-sm">
+    © 2024 National Agro Industries. All rights reserved.
+   </p>
+  </footer>
+ </body>
+</html>
